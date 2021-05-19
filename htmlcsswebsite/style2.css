@@ -1,0 +1,176 @@
+*{
+	margin:0px;
+	padding:0px;
+        box-sizing: border-box;
+}
+
+.bgimage{
+	background-image: url('1tt.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+        
+	width: 20%;
+	line-height: 100px;
+	float: left;
+
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+
+}
+
+.rightmenu ul{
+	margin-left: 400px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text1{
+	width: 100%;
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-align : center;
+	color:white;
+        hover: orange;
+        
+}
+
+
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10%;
+	border: 3px solid white;
+        position:absolute; left:45%; top:10%;
+}
+
+#buttonthree{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10%;
+	border: 3px solid white;
+        position:absolute; left:45%; top:20%;
+}
+
+.heading h2{
+	margin-top: 50px;
+        position: absolute;
+	top: 50%;
+        left: 42%;
+	text-transform: uppercase;
+	color:white;
+}
+
+.heading h4{
+	margin-top: 50px;
+        position: absolute;
+	top: 55%;
+        left: 37%;
+	text-transform: uppercase;
+	color:white;
+}
+
+
+.chr{
+color:white;
+position: absolute;
+top: 80%;
+left:43%;
+list-style: none;
+}
+
+.chr h5{
+font-family: 'Open Sans', sans-serif;
+margin-top: 10px;
+margin-left: 64px;
+color: #ffffff;
+}
+
+.chr h3{
+font-family: 'Poppins', sans-serif;
+}
+
+.chr a {
+	font-family: 'Poppins', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:yellow;
+	line-height: 50px;
+        margin-left: 50px;
+}
+
+
